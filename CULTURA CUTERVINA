@@ -1,0 +1,146 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Cultura Viva</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #fdfcf9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #8c2f39, #d95d39);
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      margin: 0 12px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #8c2f39;
+      border-bottom: 2px solid #d95d39;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Cultura Viva</h1>
+    <p>Difundiendo nuestras tradiciones al mundo</p>
+    <nav>
+      <a href="#historia">Historia</a>
+      <a href="#tradiciones">Tradiciones</a>
+      <a href="#gastronomia">Gastronomía</a>
+      <a href="#artesanias">Artesanías</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>  <section id="historia">
+    <h2>Historia</h2>
+    <p>Nuestra cultura tiene raíces profundas que se remontan a tiempos ancestrales. Cada costumbre y tradición es un reflejo de la sabiduría heredada de generación en generación.</p>
+  </section>  <section id="tradiciones">
+    <h2>Tradiciones</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?dance,festival" alt="Danza">
+        <h3>Danzas</h3>
+        <p>Las danzas típicas transmiten alegría y la unión de la comunidad en cada celebración.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?music,culture" alt="Música">
+        <h3>Música</h3>
+        <p>La música tradicional es un lenguaje universal que narra nuestra historia y emociones.</p>
+      </div>
+    </div>
+  </section>  <section id="gastronomia">
+    <h2>Gastronomía</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?traditional,food" alt="Plato típico">
+        <h3>Platos Típicos</h3>
+        <p>Sabores únicos que reflejan la identidad de nuestro pueblo.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?drink,tradition" alt="Bebida">
+        <h3>Bebidas</h3>
+        <p>Recetas transmitidas por generaciones que acompañan nuestras festividades.</p>
+      </div>
+    </div>
+  </section>  <section id="artesanias">
+    <h2>Artesanías</h2>
+    <p>Las manos de nuestros artesanos mantienen viva la esencia cultural con tejidos, cerámicas y piezas únicas.</p>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?handmade,craft" alt="Artesanía">
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?textile,art" alt="Textil">
+      </div>
+    </div>
+  </section>  <section id="galeria">
+    <h2>Galería</h2>
+    <p>Un recorrido visual por nuestra riqueza cultural.</p>
+    <div class="grid">
+      <div class="card"><img src="https://source.unsplash.com/400x300/?culture,people" alt="Galería"></div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?tradition,festival" alt="Galería"></div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?heritage,community" alt="Galería"></div>
+    </div>
+  </section>  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Quieres conocer más de nuestra cultura? Escríbenos:</p>
+    <p><strong>Email:</strong> micultura@gmail.com</p>
+    <p><strong>Teléfono:</strong> +51 987 654 321</p>
+  </section>  <footer>
+    <p>&copy; 2025 Mi Cultura Viva | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
